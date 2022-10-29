@@ -4,7 +4,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
-
+/*Navigation*/
 .vusal{
     height: 100vh; 
     width: 100%;
@@ -118,6 +118,9 @@ h4 {
     top:6px;
     right: 6px;
 }
+
+
+/*About me*/
 .about{
     width:100% ;
     padding: 100px 0px;
@@ -179,6 +182,7 @@ button:hover{
 
 
 
+/* service*/
 
 .service{
     background: #101010;
@@ -248,7 +252,80 @@ h5{
 
 
 
+/* skills*/
 
+.skills{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title-s h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card-s{
+    height: 200px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-s i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin: bottom 15px ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card-s .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card-s .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+
+/* Contact me */
 
 .contact-me{
     width: 100%;
@@ -284,6 +361,7 @@ h5{
 
 
 
+/*footer*/
 
 footer{
 position: relative;
@@ -309,7 +387,9 @@ footer p:nth-child(2){
     width: 500px;
     text-align: center;
     line-height: 26px;
+    font-family: cursive;
 }
+
 .social{
     display: flex;
 }
@@ -326,6 +406,7 @@ footer p:nth-child(2){
     color: white;
     text-decoration: none;
     font-size: 20px;
+
 }
 .social a:hover{
     transform: scale(1.3);
